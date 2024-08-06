@@ -8,7 +8,7 @@ pub mod anchor_solana_demo {
 
     pub fn initialize(ctx: Context<Initialize>) -> Result<()> {
         msg!("Greetings from: {:?}", ctx.program_id);
-        msg!("888");
+        msg!("8881");
         Ok(())
     }
 }

@@ -1,14 +1,12 @@
 {
   "license": "ISC",
   "scripts": {
-    "lint:fix": "prettier */*.js \"*/**/*{.js,.ts}\" -w",
-    "lint": "prettier */*.js \"*/**/*{.js,.ts}\" --check",
+    "deploy test": "anchor test",
     "1:validator": "solana-test-validator",
     "2:log": "solana logs",
     "3:build": "anchor build",
     "4:deploy": "anchor deploy",
-    "5:test": "anchor test --skip-local-validator --skip-deploy",
-    "deploy test": "anchor test"
+    "5:test": "anchor test --skip-local-validator --skip-deploy"
   },
   "dependencies": {
     "@coral-xyz/anchor": "^0.30.1"
